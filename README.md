@@ -1,8 +1,8 @@
 # Factors predicting college application numbers in New York State
-**This is a project I did for my R course during my master's degree studies, where I noticed a decline in college applications in the United States.
-  So I decided to find out the reasons that attract students' applications. Specifically, we will examine whether financial considerations, college 
-  staff issues and different credentials that colleges might offer can significantly influence the number of applications in 2022.**
-- **Data Source**: Custom dataset selection tools.Integrated Postsecondary Education Data System (IPEDS) project on the National Center for Education Statistics website 
+**This is a project I did for my R course during my master's program, where I noticed a decline in college applications in the United States.
+  So I decided to find out the reasons that attract students' applications, specifically from college characteristics.**
+- **Data Source**: Custom dataset selection tools from [Integrated Postsecondary Education Data System (IPEDS) project](https://nces.ed.gov/ipeds!)
+) on the National Center for Education Statistics website 
 
 - **Variables description**
   #### Table 1: Numeric Variable Descriptions
@@ -25,6 +25,21 @@
 |          |                                               | `non-baccalaureate`  | Degree-granting, not primarily baccalaureate or above |
 |          |                                               | `asso&certificate`   | Degree-granting, Associate's and certificates         |
 
-- **Result**
-  ![Image](https://drive.google.com/file/d/1Pj_xjk0xgaThO8jC2-PsOcRA4acW0bri/view?usp=sharing)
+- **Results**
+  <br> **-Main findings**
+  <br> Average faculty salary, annual tuition and fees, the number of students receiving financial aid, and school category were significant predictors of the number of college applications.
+  <br> 
+  <br> log(applicants)=β0+ β1salary+β2fees+β3finanai_percent+ β4category +ϵ.
+  <br>
+  <br> *Model results*
+  <br> <img width="649" alt="Screenshot 2024-09-14 at 21 08 11" src="https://github.com/user-attachments/assets/b56bb87d-3c5d-4fb9-aba8-3c6030f22abd">
+  <br> 
+<br> **-Degree categorical differences**
+  <br> On average, schools that primarily offer baccalaureate or higher degrees receive the most applications, followed by schools that primarily offer nonbaccalaureate and associate's degrees and certificates.
+
+  <img width="416" alt="Screenshot 2024-09-14 at 21 21 44" src="https://github.com/user-attachments/assets/9958e369-6a7b-4310-8172-a56baa2d81de">
+
+<img width="520" alt="Screenshot 2024-09-14 at 21 22 56" src="https://github.com/user-attachments/assets/d1417032-ad33-42b2-b9fd-1113d49bf75b">
+
+
   
