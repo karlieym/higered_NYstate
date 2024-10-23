@@ -1,5 +1,5 @@
 # Factors predicting college application numbers in New York State
-**This is a project I did for my R course during my master's program, where I noticed a decline in college applications in the United States.
+**The motivation of the program came from the overall declining college applications trend in the United States.
   So I decided to find out the reasons that attract students' applications, specifically from college characteristics. The full code, dataset and paper are available.**
 - **Data Source**: Custom dataset selection tools from [Integrated Postsecondary Education Data System (IPEDS) project](https://nces.ed.gov/ipeds!)
 ) on the National Center for Education Statistics website 
